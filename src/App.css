@@ -36,3 +36,30 @@
     transform: rotate(360deg);
   }
 }
+
+.slide-container {
+  position: relative;
+  display: inline-block;
+}
+
+.iframe-wrapper {
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 960px; /* same width as iframe */
+  height: 569px; /* same height as iframe */
+  pointer-events: none; /* allows clicks to pass through to iframe */
+}
+
+.shape-info {
+  position: absolute;
+  background-color: rgba(255, 255, 255, 0.7);
+  border: 1px solid black;
+  font-size: 12px;
+  text-align: center;
+  pointer-events: none; /* allows clicks to pass through */
+}
