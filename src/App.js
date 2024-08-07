@@ -276,8 +276,8 @@ function App() {
               <div className="iframe-wrapper">
                 <iframe
                   key={iframeKey} // Use key to force refresh
+                  title={"googleslidesframe"}
                   src={`https://docs.google.com/presentation/d/${PRESENTATION_ID}/embed?start=false&loop=false&delayms=3000`}
-                  frameBorder="0"
                   width="960"
                   height="569"
                   allowFullScreen
